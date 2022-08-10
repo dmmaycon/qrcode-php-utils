@@ -1,0 +1,22 @@
+{
+  "name": "dmmaycon/gerador-qr-code",
+  "description": "Gerador de Códigos QR Codes",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Maycon de Moraes",
+      "email": "mayconmoraes.dm@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\" : "src/"
+    }
+  },
+  "require": {
+    "php": ">= 8.0",
+    "chillerlan/php-qrcode": "dev-main",
+    "ext-gd": "*"
+  }
+}
